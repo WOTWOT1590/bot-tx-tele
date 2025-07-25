@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from ai_logic import du_doan_tai_xiu
 
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Thay bằng token bot thật
+BOT_TOKEN = "7672832388:AAG7PPAstYq-1g9HX32ltK3IBhY7cBzXy9k"  # Thay bằng token bot thật
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🎲 Gửi /du đoán để AI dự đoán Tài/Xỉu!")
